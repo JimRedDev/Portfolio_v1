@@ -1,0 +1,75 @@
+.clrChange{
+    background-color: #262626;
+  }
+  
+  body{
+    
+  }
+  
+  header h1{
+    color: #fff;
+    margin-top: 50px;
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+  }
+  
+  .container{
+    background-color: #fff;
+    width: 40%;
+    
+  }
+  
+  #container{
+    margin-top: 35px;
+  }
+  
+  #quoteSpace{
+    margin-top: 10px;
+  }
+  
+  .quoteHere{
+    font-family: 'Bellefair', serif;
+    font-size: 1.2em;
+  }
+  
+  #buttons{
+    padding: 0;
+    margin-bottom: 25px;
+  }
+  
+  .btn{
+    margin-top: 5px;
+    color: #fff;
+  }
+  
+  .btn:hover{
+    color: #fff;
+  }
+  
+  .btn:focus{
+    color:#fff;
+  }
+  
+  blockquote{
+    border: none;
+  }
+  
+  .footer{
+    background-color: inherit;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  small{
+    
+  }
+  
+  .fa{
+    font-size: 125%;
+  }
+  
+  #newQuote{
+    font-weight: bold;
+    font-size: 110%;
+  }

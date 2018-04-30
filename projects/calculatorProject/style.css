@@ -1,0 +1,111 @@
+body{
+  background-color: #4B494C;
+}
+
+button{
+  outline: none;
+}
+
+#container{
+  width: 100%;
+}
+
+#header{
+  font-family: 'Titillium Web', sans-serif;
+  color: #fff;
+  width:400px;
+  margin: 25px auto 0px auto;
+  text-align: center;
+  }
+
+#header h1{
+  font-size: 300%;
+  font-weight: bold;
+  margin: 0;
+  width:180px;
+  position: relative;
+  left: 75px;
+}
+
+#header h3{
+  font-style: italic;
+  margin:0;
+  width: 180px;
+  position: relative;
+  left: 175px;
+}
+
+#calculator{
+  width: 400px;
+  height: 600px;
+  background-color: #7F7F7F;
+  margin: 25px auto;
+  border-radius: 10px;
+  border:3px solid black;
+}
+
+#displaySection{
+  margin: 0 auto;
+  text-align: center;
+}
+
+#display{
+  font-family: monospace;
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+  text-align: right;
+  background-color: #fff;
+  border: 1px solid black;
+  height: 50px;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+#buttons{
+border: 1px solid black;
+height: 420px;
+width: 80%;
+margin: 0 auto;
+margin-top: 35px;
+
+}
+
+.key{
+  border: none;
+  float: left;
+  width:60px;
+  height: 60px;
+  margin: 10px;
+  border-radius:10px;
+  background-color: #FFA700;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  font-family: arial, sans-serif;;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+#del, #clr{
+	font-size: 110%;
+}
+
+.key:hover{
+  box-shadow: 0px 0px 10px #fff;
+  cursor: pointer;
+}
+
+.enter{
+  width:140px;
+  background-color: #167EE5;
+}
+
+.operators{
+  background-color: #1DCC6B;
+}
+
+.screenClear{
+  background-color: #FF3437;
+}

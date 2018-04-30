@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Calculator</title>
+
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <div id="header">
+        <h1>Calculator</h1>
+        <h3>designed in Javascript</h3>
+      </div>
+    </header>
+
+
+    <div id="calculator">
+
+      <div id="displaySection" >
+
+        <form>
+          <input type="text" id="display" disabled>
+        </form>
+
+      </div>
+
+      <div id="buttons">
+
+        <button id="clr" class="key screenClear" onclick="clearScreen()">
+          CLR
+        </button>
+        <button id="del" class="key screenClear" onclick="amend()">
+          DEL
+        </button>
+        <button id="negative" class="key" onclick="negNumber()">
+          +/-
+        </button>
+        <button id="divide" class="key operators" onclick="toScreen('/')">
+          &divide
+        </button>
+        <button class="key" onclick="toScreen('7')">
+          7
+        </button>
+        <button class="key" onclick="toScreen('8')">
+          8
+        </button>
+        <button class="key" onclick="toScreen('9')">
+          9
+        </button>
+        <button id="multiply" class="key operators" onclick="toScreen('*')">
+          &times
+        </button>
+        <button class="key" onclick="toScreen('4')">
+          4
+        </button>
+        <button class="key"onclick="toScreen('5')" >
+          5
+        </button>
+        <button class="key" onclick="toScreen('6')">
+          6
+        </button>
+        <button id="subtract" class="key operators" onclick="toScreen(' -')">
+          -
+        </button>
+        <button class="key" id='one'onclick="toScreen('1')">
+          1
+        </button>
+        <button class="key" onclick="toScreen('2')">
+          2
+        </button>
+        <button class="key" onclick="toScreen('3')">
+          3
+        </button>
+        <button id="add" class="key operators" onclick="toScreen('+')">
+          +
+        </button>
+        <button class="key" onclick="toScreen('0')">
+          0
+        </button>
+        <button id="decimal" class="key" onclick="toScreen('.')">
+          .
+        </button>
+        <button id="equals" class="key enter" onclick="calcSolve()">
+          =
+        </button>
+
+      </div>
+
+    </div>
+
+</div>
+
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
